@@ -28,7 +28,7 @@
   <build>
     <plugins>
       <!-- Uncomment this to get the latest sources: -->
-      <plugin>
+<!--      <plugin>
         <artifactId>exec-maven-plugin</artifactId>
         <groupId>org.codehaus.mojo</groupId>
         <executions>
@@ -50,7 +50,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
