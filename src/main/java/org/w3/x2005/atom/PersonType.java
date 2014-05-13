@@ -1,5 +1,5 @@
 /*
- * XML Type:  personType
+ * XML Type:  PersonType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.PersonType
  *
@@ -9,14 +9,14 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML personType(@http://www.w3.org/2005/Atom).
+ * An XML PersonType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
 public interface PersonType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(PersonType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("persontype09a1type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(PersonType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("persontype75c1type");
     
     /**
      * Gets array of all "name" elements
@@ -127,76 +127,6 @@ public interface PersonType extends org.apache.xmlbeans.XmlObject
      * Removes the ith "uri" element
      */
     void removeUri(int i);
-    
-    /**
-     * Gets array of all "email" elements
-     */
-    java.lang.String[] getEmailArray();
-    
-    /**
-     * Gets ith "email" element
-     */
-    java.lang.String getEmailArray(int i);
-    
-    /**
-     * Gets (as xml) array of all "email" elements
-     */
-    org.w3.x2005.atom.EmailType[] xgetEmailArray();
-    
-    /**
-     * Gets (as xml) ith "email" element
-     */
-    org.w3.x2005.atom.EmailType xgetEmailArray(int i);
-    
-    /**
-     * Returns number of "email" element
-     */
-    int sizeOfEmailArray();
-    
-    /**
-     * Sets array of all "email" element
-     */
-    void setEmailArray(java.lang.String[] emailArray);
-    
-    /**
-     * Sets ith "email" element
-     */
-    void setEmailArray(int i, java.lang.String email);
-    
-    /**
-     * Sets (as xml) array of all "email" element
-     */
-    void xsetEmailArray(org.w3.x2005.atom.EmailType[] emailArray);
-    
-    /**
-     * Sets (as xml) ith "email" element
-     */
-    void xsetEmailArray(int i, org.w3.x2005.atom.EmailType email);
-    
-    /**
-     * Inserts the value as the ith "email" element
-     */
-    void insertEmail(int i, java.lang.String email);
-    
-    /**
-     * Appends the value as the last "email" element
-     */
-    void addEmail(java.lang.String email);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "email" element
-     */
-    org.w3.x2005.atom.EmailType insertNewEmail(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "email" element
-     */
-    org.w3.x2005.atom.EmailType addNewEmail();
-    
-    /**
-     * Removes the ith "email" element
-     */
-    void removeEmail(int i);
     
     /**
      * Gets the "base" attribute

@@ -16,7 +16,7 @@ package org.w3.x2005.atom;
 public interface EmailType extends org.apache.xmlbeans.XmlNormalizedString
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EmailType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("emailtype5d76type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EmailType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s4B6AD9617342DA882D09DAFB351EA676").resolveHandle("emailtype5d76type");
     
     /**
      * A factory class with static methods for creating instances

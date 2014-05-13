@@ -1,5 +1,5 @@
 /*
- * XML Type:  entryType
+ * XML Type:  EntryType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.EntryType
  *
@@ -9,14 +9,214 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML entryType(@http://www.w3.org/2005/Atom).
+ * An XML EntryType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
 public interface EntryType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EntryType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("entrytype424ctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EntryType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("entrytyped22ctype");
+    
+    /**
+     * Gets array of all "title" elements
+     */
+    org.w3.x2005.atom.TextType[] getTitleArray();
+    
+    /**
+     * Gets ith "title" element
+     */
+    org.w3.x2005.atom.TextType getTitleArray(int i);
+    
+    /**
+     * Returns number of "title" element
+     */
+    int sizeOfTitleArray();
+    
+    /**
+     * Sets array of all "title" element
+     */
+    void setTitleArray(org.w3.x2005.atom.TextType[] titleArray);
+    
+    /**
+     * Sets ith "title" element
+     */
+    void setTitleArray(int i, org.w3.x2005.atom.TextType title);
+    
+    /**
+     * Inserts and returns a new empty value (as xml) as the ith "title" element
+     */
+    org.w3.x2005.atom.TextType insertNewTitle(int i);
+    
+    /**
+     * Appends and returns a new empty value (as xml) as the last "title" element
+     */
+    org.w3.x2005.atom.TextType addNewTitle();
+    
+    /**
+     * Removes the ith "title" element
+     */
+    void removeTitle(int i);
+    
+    /**
+     * Gets array of all "link" elements
+     */
+    org.w3.x2005.atom.LinkType[] getLinkArray();
+    
+    /**
+     * Gets ith "link" element
+     */
+    org.w3.x2005.atom.LinkType getLinkArray(int i);
+    
+    /**
+     * Returns number of "link" element
+     */
+    int sizeOfLinkArray();
+    
+    /**
+     * Sets array of all "link" element
+     */
+    void setLinkArray(org.w3.x2005.atom.LinkType[] linkArray);
+    
+    /**
+     * Sets ith "link" element
+     */
+    void setLinkArray(int i, org.w3.x2005.atom.LinkType link);
+    
+    /**
+     * Inserts and returns a new empty value (as xml) as the ith "link" element
+     */
+    org.w3.x2005.atom.LinkType insertNewLink(int i);
+    
+    /**
+     * Appends and returns a new empty value (as xml) as the last "link" element
+     */
+    org.w3.x2005.atom.LinkType addNewLink();
+    
+    /**
+     * Removes the ith "link" element
+     */
+    void removeLink(int i);
+    
+    /**
+     * Gets array of all "id" elements
+     */
+    org.w3.x2005.atom.IdType[] getIdArray();
+    
+    /**
+     * Gets ith "id" element
+     */
+    org.w3.x2005.atom.IdType getIdArray(int i);
+    
+    /**
+     * Returns number of "id" element
+     */
+    int sizeOfIdArray();
+    
+    /**
+     * Sets array of all "id" element
+     */
+    void setIdArray(org.w3.x2005.atom.IdType[] idArray);
+    
+    /**
+     * Sets ith "id" element
+     */
+    void setIdArray(int i, org.w3.x2005.atom.IdType id);
+    
+    /**
+     * Inserts and returns a new empty value (as xml) as the ith "id" element
+     */
+    org.w3.x2005.atom.IdType insertNewId(int i);
+    
+    /**
+     * Appends and returns a new empty value (as xml) as the last "id" element
+     */
+    org.w3.x2005.atom.IdType addNewId();
+    
+    /**
+     * Removes the ith "id" element
+     */
+    void removeId(int i);
+    
+    /**
+     * Gets array of all "updated" elements
+     */
+    org.w3.x2005.atom.DateTimeType[] getUpdatedArray();
+    
+    /**
+     * Gets ith "updated" element
+     */
+    org.w3.x2005.atom.DateTimeType getUpdatedArray(int i);
+    
+    /**
+     * Returns number of "updated" element
+     */
+    int sizeOfUpdatedArray();
+    
+    /**
+     * Sets array of all "updated" element
+     */
+    void setUpdatedArray(org.w3.x2005.atom.DateTimeType[] updatedArray);
+    
+    /**
+     * Sets ith "updated" element
+     */
+    void setUpdatedArray(int i, org.w3.x2005.atom.DateTimeType updated);
+    
+    /**
+     * Inserts and returns a new empty value (as xml) as the ith "updated" element
+     */
+    org.w3.x2005.atom.DateTimeType insertNewUpdated(int i);
+    
+    /**
+     * Appends and returns a new empty value (as xml) as the last "updated" element
+     */
+    org.w3.x2005.atom.DateTimeType addNewUpdated();
+    
+    /**
+     * Removes the ith "updated" element
+     */
+    void removeUpdated(int i);
+    
+    /**
+     * Gets array of all "published" elements
+     */
+    org.w3.x2005.atom.DateTimeType[] getPublishedArray();
+    
+    /**
+     * Gets ith "published" element
+     */
+    org.w3.x2005.atom.DateTimeType getPublishedArray(int i);
+    
+    /**
+     * Returns number of "published" element
+     */
+    int sizeOfPublishedArray();
+    
+    /**
+     * Sets array of all "published" element
+     */
+    void setPublishedArray(org.w3.x2005.atom.DateTimeType[] publishedArray);
+    
+    /**
+     * Sets ith "published" element
+     */
+    void setPublishedArray(int i, org.w3.x2005.atom.DateTimeType published);
+    
+    /**
+     * Inserts and returns a new empty value (as xml) as the ith "published" element
+     */
+    org.w3.x2005.atom.DateTimeType insertNewPublished(int i);
+    
+    /**
+     * Appends and returns a new empty value (as xml) as the last "published" element
+     */
+    org.w3.x2005.atom.DateTimeType addNewPublished();
+    
+    /**
+     * Removes the ith "published" element
+     */
+    void removePublished(int i);
     
     /**
      * Gets array of all "author" elements
@@ -139,246 +339,6 @@ public interface EntryType extends org.apache.xmlbeans.XmlObject
     void removeContent(int i);
     
     /**
-     * Gets array of all "contributor" elements
-     */
-    org.w3.x2005.atom.PersonType[] getContributorArray();
-    
-    /**
-     * Gets ith "contributor" element
-     */
-    org.w3.x2005.atom.PersonType getContributorArray(int i);
-    
-    /**
-     * Returns number of "contributor" element
-     */
-    int sizeOfContributorArray();
-    
-    /**
-     * Sets array of all "contributor" element
-     */
-    void setContributorArray(org.w3.x2005.atom.PersonType[] contributorArray);
-    
-    /**
-     * Sets ith "contributor" element
-     */
-    void setContributorArray(int i, org.w3.x2005.atom.PersonType contributor);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "contributor" element
-     */
-    org.w3.x2005.atom.PersonType insertNewContributor(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "contributor" element
-     */
-    org.w3.x2005.atom.PersonType addNewContributor();
-    
-    /**
-     * Removes the ith "contributor" element
-     */
-    void removeContributor(int i);
-    
-    /**
-     * Gets array of all "id" elements
-     */
-    org.w3.x2005.atom.IdType[] getIdArray();
-    
-    /**
-     * Gets ith "id" element
-     */
-    org.w3.x2005.atom.IdType getIdArray(int i);
-    
-    /**
-     * Returns number of "id" element
-     */
-    int sizeOfIdArray();
-    
-    /**
-     * Sets array of all "id" element
-     */
-    void setIdArray(org.w3.x2005.atom.IdType[] idArray);
-    
-    /**
-     * Sets ith "id" element
-     */
-    void setIdArray(int i, org.w3.x2005.atom.IdType id);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "id" element
-     */
-    org.w3.x2005.atom.IdType insertNewId(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "id" element
-     */
-    org.w3.x2005.atom.IdType addNewId();
-    
-    /**
-     * Removes the ith "id" element
-     */
-    void removeId(int i);
-    
-    /**
-     * Gets array of all "link" elements
-     */
-    org.w3.x2005.atom.LinkType[] getLinkArray();
-    
-    /**
-     * Gets ith "link" element
-     */
-    org.w3.x2005.atom.LinkType getLinkArray(int i);
-    
-    /**
-     * Returns number of "link" element
-     */
-    int sizeOfLinkArray();
-    
-    /**
-     * Sets array of all "link" element
-     */
-    void setLinkArray(org.w3.x2005.atom.LinkType[] linkArray);
-    
-    /**
-     * Sets ith "link" element
-     */
-    void setLinkArray(int i, org.w3.x2005.atom.LinkType link);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "link" element
-     */
-    org.w3.x2005.atom.LinkType insertNewLink(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "link" element
-     */
-    org.w3.x2005.atom.LinkType addNewLink();
-    
-    /**
-     * Removes the ith "link" element
-     */
-    void removeLink(int i);
-    
-    /**
-     * Gets array of all "published" elements
-     */
-    org.w3.x2005.atom.DateTimeType[] getPublishedArray();
-    
-    /**
-     * Gets ith "published" element
-     */
-    org.w3.x2005.atom.DateTimeType getPublishedArray(int i);
-    
-    /**
-     * Returns number of "published" element
-     */
-    int sizeOfPublishedArray();
-    
-    /**
-     * Sets array of all "published" element
-     */
-    void setPublishedArray(org.w3.x2005.atom.DateTimeType[] publishedArray);
-    
-    /**
-     * Sets ith "published" element
-     */
-    void setPublishedArray(int i, org.w3.x2005.atom.DateTimeType published);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "published" element
-     */
-    org.w3.x2005.atom.DateTimeType insertNewPublished(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "published" element
-     */
-    org.w3.x2005.atom.DateTimeType addNewPublished();
-    
-    /**
-     * Removes the ith "published" element
-     */
-    void removePublished(int i);
-    
-    /**
-     * Gets array of all "rights" elements
-     */
-    org.w3.x2005.atom.TextType[] getRightsArray();
-    
-    /**
-     * Gets ith "rights" element
-     */
-    org.w3.x2005.atom.TextType getRightsArray(int i);
-    
-    /**
-     * Returns number of "rights" element
-     */
-    int sizeOfRightsArray();
-    
-    /**
-     * Sets array of all "rights" element
-     */
-    void setRightsArray(org.w3.x2005.atom.TextType[] rightsArray);
-    
-    /**
-     * Sets ith "rights" element
-     */
-    void setRightsArray(int i, org.w3.x2005.atom.TextType rights);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "rights" element
-     */
-    org.w3.x2005.atom.TextType insertNewRights(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "rights" element
-     */
-    org.w3.x2005.atom.TextType addNewRights();
-    
-    /**
-     * Removes the ith "rights" element
-     */
-    void removeRights(int i);
-    
-    /**
-     * Gets array of all "source" elements
-     */
-    org.w3.x2005.atom.TextType[] getSourceArray();
-    
-    /**
-     * Gets ith "source" element
-     */
-    org.w3.x2005.atom.TextType getSourceArray(int i);
-    
-    /**
-     * Returns number of "source" element
-     */
-    int sizeOfSourceArray();
-    
-    /**
-     * Sets array of all "source" element
-     */
-    void setSourceArray(org.w3.x2005.atom.TextType[] sourceArray);
-    
-    /**
-     * Sets ith "source" element
-     */
-    void setSourceArray(int i, org.w3.x2005.atom.TextType source);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "source" element
-     */
-    org.w3.x2005.atom.TextType insertNewSource(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "source" element
-     */
-    org.w3.x2005.atom.TextType addNewSource();
-    
-    /**
-     * Removes the ith "source" element
-     */
-    void removeSource(int i);
-    
-    /**
      * Gets array of all "summary" elements
      */
     org.w3.x2005.atom.TextType[] getSummaryArray();
@@ -417,86 +377,6 @@ public interface EntryType extends org.apache.xmlbeans.XmlObject
      * Removes the ith "summary" element
      */
     void removeSummary(int i);
-    
-    /**
-     * Gets array of all "title" elements
-     */
-    org.w3.x2005.atom.TextType[] getTitleArray();
-    
-    /**
-     * Gets ith "title" element
-     */
-    org.w3.x2005.atom.TextType getTitleArray(int i);
-    
-    /**
-     * Returns number of "title" element
-     */
-    int sizeOfTitleArray();
-    
-    /**
-     * Sets array of all "title" element
-     */
-    void setTitleArray(org.w3.x2005.atom.TextType[] titleArray);
-    
-    /**
-     * Sets ith "title" element
-     */
-    void setTitleArray(int i, org.w3.x2005.atom.TextType title);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "title" element
-     */
-    org.w3.x2005.atom.TextType insertNewTitle(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "title" element
-     */
-    org.w3.x2005.atom.TextType addNewTitle();
-    
-    /**
-     * Removes the ith "title" element
-     */
-    void removeTitle(int i);
-    
-    /**
-     * Gets array of all "updated" elements
-     */
-    org.w3.x2005.atom.DateTimeType[] getUpdatedArray();
-    
-    /**
-     * Gets ith "updated" element
-     */
-    org.w3.x2005.atom.DateTimeType getUpdatedArray(int i);
-    
-    /**
-     * Returns number of "updated" element
-     */
-    int sizeOfUpdatedArray();
-    
-    /**
-     * Sets array of all "updated" element
-     */
-    void setUpdatedArray(org.w3.x2005.atom.DateTimeType[] updatedArray);
-    
-    /**
-     * Sets ith "updated" element
-     */
-    void setUpdatedArray(int i, org.w3.x2005.atom.DateTimeType updated);
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "updated" element
-     */
-    org.w3.x2005.atom.DateTimeType insertNewUpdated(int i);
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "updated" element
-     */
-    org.w3.x2005.atom.DateTimeType addNewUpdated();
-    
-    /**
-     * Removes the ith "updated" element
-     */
-    void removeUpdated(int i);
     
     /**
      * Gets the "base" attribute

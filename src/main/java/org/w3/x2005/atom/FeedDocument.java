@@ -17,7 +17,7 @@ package org.w3.x2005.atom;
 public interface FeedDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(FeedDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("feed8760doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(FeedDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("feed8760doctype");
     
     /**
      * Gets the "feed" element

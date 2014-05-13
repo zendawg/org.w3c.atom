@@ -16,7 +16,7 @@ package org.w3.x2005.atom;
 public interface GeneratorType extends org.apache.xmlbeans.XmlString
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GeneratorType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("generatortype9d2dtype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(GeneratorType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s4B6AD9617342DA882D09DAFB351EA676").resolveHandle("generatortype9d2dtype");
     
     /**
      * Gets the "uri" attribute

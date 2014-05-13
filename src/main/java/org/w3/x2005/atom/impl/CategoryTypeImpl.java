@@ -1,5 +1,5 @@
 /*
- * XML Type:  categoryType
+ * XML Type:  CategoryType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.CategoryType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML categoryType(@http://www.w3.org/2005/Atom).
+ * An XML CategoryType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
@@ -53,13 +53,13 @@ public class CategoryTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     /**
      * Gets (as xml) the "term" attribute
      */
-    public org.apache.xmlbeans.XmlString xgetTerm()
+    public org.apache.xmlbeans.XmlAnyURI xgetTerm()
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_attribute_user(TERM$0);
+            org.apache.xmlbeans.XmlAnyURI target = null;
+            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(TERM$0);
             return target;
         }
     }
@@ -85,16 +85,16 @@ public class CategoryTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     /**
      * Sets (as xml) the "term" attribute
      */
-    public void xsetTerm(org.apache.xmlbeans.XmlString term)
+    public void xsetTerm(org.apache.xmlbeans.XmlAnyURI term)
     {
         synchronized (monitor())
         {
             check_orphaned();
-            org.apache.xmlbeans.XmlString target = null;
-            target = (org.apache.xmlbeans.XmlString)get_store().find_attribute_user(TERM$0);
+            org.apache.xmlbeans.XmlAnyURI target = null;
+            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(TERM$0);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlString)get_store().add_attribute_user(TERM$0);
+                target = (org.apache.xmlbeans.XmlAnyURI)get_store().add_attribute_user(TERM$0);
             }
             target.set(term);
         }
@@ -133,18 +133,6 @@ public class CategoryTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplex
     }
     
     /**
-     * True if has "scheme" attribute
-     */
-    public boolean isSetScheme()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            return get_store().find_attribute_user(SCHEME$2) != null;
-        }
-    }
-    
-    /**
      * Sets the "scheme" attribute
      */
     public void setScheme(java.lang.String scheme)
@@ -177,18 +165,6 @@ public class CategoryTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplex
                 target = (org.apache.xmlbeans.XmlAnyURI)get_store().add_attribute_user(SCHEME$2);
             }
             target.set(scheme);
-        }
-    }
-    
-    /**
-     * Unsets the "scheme" attribute
-     */
-    public void unsetScheme()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            get_store().remove_attribute(SCHEME$2);
         }
     }
     

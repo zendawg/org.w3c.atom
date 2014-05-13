@@ -1,5 +1,5 @@
 /*
- * XML Type:  textType
+ * XML Type:  TextType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.TextType
  *
@@ -9,14 +9,14 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML textType(@http://www.w3.org/2005/Atom).
+ * An XML TextType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
 public interface TextType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(TextType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("texttype29b9type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(TextType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("texttype1dd9type");
     
     /**
      * Gets the "type" attribute
@@ -116,7 +116,7 @@ public interface TextType extends org.apache.xmlbeans.XmlObject
     public interface Type extends org.apache.xmlbeans.XmlToken
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(Type.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("type8f1fattrtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(Type.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("type833fattrtype");
         
         org.apache.xmlbeans.StringEnumAbstractBase enumValue();
         void set(org.apache.xmlbeans.StringEnumAbstractBase e);

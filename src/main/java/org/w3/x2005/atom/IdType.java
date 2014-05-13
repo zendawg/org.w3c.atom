@@ -1,5 +1,5 @@
 /*
- * XML Type:  idType
+ * XML Type:  IdType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.IdType
  *
@@ -9,14 +9,14 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML idType(@http://www.w3.org/2005/Atom).
+ * An XML IdType(@http://www.w3.org/2005/Atom).
  *
  * This is an atomic type that is a restriction of org.w3.x2005.atom.IdType.
  */
 public interface IdType extends org.apache.xmlbeans.XmlAnyURI
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(IdType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("idtype1fe7type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(IdType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("idtype9c07type");
     
     /**
      * Gets the "base" attribute

@@ -17,7 +17,7 @@ package org.w3.x2005.atom;
 public interface EntryDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EntryDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("entryaa62doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(EntryDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s4B6AD9617342DA882D09DAFB351EA676").resolveHandle("entryaa62doctype");
     
     /**
      * Gets the "entry" element

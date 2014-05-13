@@ -1,5 +1,5 @@
 /*
- * XML Type:  personType
+ * XML Type:  PersonType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.PersonType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML personType(@http://www.w3.org/2005/Atom).
+ * An XML PersonType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
@@ -24,11 +24,9 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         new javax.xml.namespace.QName("http://www.w3.org/2005/Atom", "name");
     private static final javax.xml.namespace.QName URI$2 = 
         new javax.xml.namespace.QName("http://www.w3.org/2005/Atom", "uri");
-    private static final javax.xml.namespace.QName EMAIL$4 = 
-        new javax.xml.namespace.QName("http://www.w3.org/2005/Atom", "email");
-    private static final javax.xml.namespace.QName BASE$6 = 
+    private static final javax.xml.namespace.QName BASE$4 = 
         new javax.xml.namespace.QName("http://www.w3.org/XML/1998/namespace", "base");
-    private static final javax.xml.namespace.QName LANG$8 = 
+    private static final javax.xml.namespace.QName LANG$6 = 
         new javax.xml.namespace.QName("http://www.w3.org/XML/1998/namespace", "lang");
     
     
@@ -355,215 +353,6 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
     }
     
     /**
-     * Gets array of all "email" elements
-     */
-    public java.lang.String[] getEmailArray()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            java.util.List targetList = new java.util.ArrayList();
-            get_store().find_all_element_users(EMAIL$4, targetList);
-            java.lang.String[] result = new java.lang.String[targetList.size()];
-            for (int i = 0, len = targetList.size() ; i < len ; i++)
-                result[i] = ((org.apache.xmlbeans.SimpleValue)targetList.get(i)).getStringValue();
-            return result;
-        }
-    }
-    
-    /**
-     * Gets ith "email" element
-     */
-    public java.lang.String getEmailArray(int i)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(EMAIL$4, i);
-            if (target == null)
-            {
-                throw new IndexOutOfBoundsException();
-            }
-            return target.getStringValue();
-        }
-    }
-    
-    /**
-     * Gets (as xml) array of all "email" elements
-     */
-    public org.w3.x2005.atom.EmailType[] xgetEmailArray()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            java.util.List targetList = new java.util.ArrayList();
-            get_store().find_all_element_users(EMAIL$4, targetList);
-            org.w3.x2005.atom.EmailType[] result = new org.w3.x2005.atom.EmailType[targetList.size()];
-            targetList.toArray(result);
-            return result;
-        }
-    }
-    
-    /**
-     * Gets (as xml) ith "email" element
-     */
-    public org.w3.x2005.atom.EmailType xgetEmailArray(int i)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.w3.x2005.atom.EmailType target = null;
-            target = (org.w3.x2005.atom.EmailType)get_store().find_element_user(EMAIL$4, i);
-            if (target == null)
-            {
-                throw new IndexOutOfBoundsException();
-            }
-            return target;
-        }
-    }
-    
-    /**
-     * Returns number of "email" element
-     */
-    public int sizeOfEmailArray()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            return get_store().count_elements(EMAIL$4);
-        }
-    }
-    
-    /**
-     * Sets array of all "email" element
-     */
-    public void setEmailArray(java.lang.String[] emailArray)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            arraySetterHelper(emailArray, EMAIL$4);
-        }
-    }
-    
-    /**
-     * Sets ith "email" element
-     */
-    public void setEmailArray(int i, java.lang.String email)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_element_user(EMAIL$4, i);
-            if (target == null)
-            {
-                throw new IndexOutOfBoundsException();
-            }
-            target.setStringValue(email);
-        }
-    }
-    
-    /**
-     * Sets (as xml) array of all "email" element
-     */
-    public void xsetEmailArray(org.w3.x2005.atom.EmailType[]emailArray)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            arraySetterHelper(emailArray, EMAIL$4);
-        }
-    }
-    
-    /**
-     * Sets (as xml) ith "email" element
-     */
-    public void xsetEmailArray(int i, org.w3.x2005.atom.EmailType email)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.w3.x2005.atom.EmailType target = null;
-            target = (org.w3.x2005.atom.EmailType)get_store().find_element_user(EMAIL$4, i);
-            if (target == null)
-            {
-                throw new IndexOutOfBoundsException();
-            }
-            target.set(email);
-        }
-    }
-    
-    /**
-     * Inserts the value as the ith "email" element
-     */
-    public void insertEmail(int i, java.lang.String email)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = 
-                (org.apache.xmlbeans.SimpleValue)get_store().insert_element_user(EMAIL$4, i);
-            target.setStringValue(email);
-        }
-    }
-    
-    /**
-     * Appends the value as the last "email" element
-     */
-    public void addEmail(java.lang.String email)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(EMAIL$4);
-            target.setStringValue(email);
-        }
-    }
-    
-    /**
-     * Inserts and returns a new empty value (as xml) as the ith "email" element
-     */
-    public org.w3.x2005.atom.EmailType insertNewEmail(int i)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.w3.x2005.atom.EmailType target = null;
-            target = (org.w3.x2005.atom.EmailType)get_store().insert_element_user(EMAIL$4, i);
-            return target;
-        }
-    }
-    
-    /**
-     * Appends and returns a new empty value (as xml) as the last "email" element
-     */
-    public org.w3.x2005.atom.EmailType addNewEmail()
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            org.w3.x2005.atom.EmailType target = null;
-            target = (org.w3.x2005.atom.EmailType)get_store().add_element_user(EMAIL$4);
-            return target;
-        }
-    }
-    
-    /**
-     * Removes the ith "email" element
-     */
-    public void removeEmail(int i)
-    {
-        synchronized (monitor())
-        {
-            check_orphaned();
-            get_store().remove_element(EMAIL$4, i);
-        }
-    }
-    
-    /**
      * Gets the "base" attribute
      */
     public java.lang.String getBase()
@@ -572,7 +361,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(BASE$6);
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(BASE$4);
             if (target == null)
             {
                 return null;
@@ -590,7 +379,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.XmlAnyURI target = null;
-            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(BASE$6);
+            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(BASE$4);
             return target;
         }
     }
@@ -603,7 +392,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         synchronized (monitor())
         {
             check_orphaned();
-            return get_store().find_attribute_user(BASE$6) != null;
+            return get_store().find_attribute_user(BASE$4) != null;
         }
     }
     
@@ -616,10 +405,10 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(BASE$6);
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(BASE$4);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(BASE$6);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(BASE$4);
             }
             target.setStringValue(base);
         }
@@ -634,10 +423,10 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.XmlAnyURI target = null;
-            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(BASE$6);
+            target = (org.apache.xmlbeans.XmlAnyURI)get_store().find_attribute_user(BASE$4);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlAnyURI)get_store().add_attribute_user(BASE$6);
+                target = (org.apache.xmlbeans.XmlAnyURI)get_store().add_attribute_user(BASE$4);
             }
             target.set(base);
         }
@@ -651,7 +440,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         synchronized (monitor())
         {
             check_orphaned();
-            get_store().remove_attribute(BASE$6);
+            get_store().remove_attribute(BASE$4);
         }
     }
     
@@ -664,7 +453,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(LANG$8);
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(LANG$6);
             if (target == null)
             {
                 return null;
@@ -682,7 +471,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.XmlLanguage target = null;
-            target = (org.apache.xmlbeans.XmlLanguage)get_store().find_attribute_user(LANG$8);
+            target = (org.apache.xmlbeans.XmlLanguage)get_store().find_attribute_user(LANG$6);
             return target;
         }
     }
@@ -695,7 +484,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         synchronized (monitor())
         {
             check_orphaned();
-            return get_store().find_attribute_user(LANG$8) != null;
+            return get_store().find_attribute_user(LANG$6) != null;
         }
     }
     
@@ -708,10 +497,10 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.SimpleValue target = null;
-            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(LANG$8);
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(LANG$6);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(LANG$8);
+                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(LANG$6);
             }
             target.setStringValue(lang);
         }
@@ -726,10 +515,10 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         {
             check_orphaned();
             org.apache.xmlbeans.XmlLanguage target = null;
-            target = (org.apache.xmlbeans.XmlLanguage)get_store().find_attribute_user(LANG$8);
+            target = (org.apache.xmlbeans.XmlLanguage)get_store().find_attribute_user(LANG$6);
             if (target == null)
             {
-                target = (org.apache.xmlbeans.XmlLanguage)get_store().add_attribute_user(LANG$8);
+                target = (org.apache.xmlbeans.XmlLanguage)get_store().add_attribute_user(LANG$6);
             }
             target.set(lang);
         }
@@ -743,7 +532,7 @@ public class PersonTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexCo
         synchronized (monitor())
         {
             check_orphaned();
-            get_store().remove_attribute(LANG$8);
+            get_store().remove_attribute(LANG$6);
         }
     }
 }

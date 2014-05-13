@@ -1,5 +1,5 @@
 /*
- * XML Type:  idType
+ * XML Type:  IdType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.IdType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML idType(@http://www.w3.org/2005/Atom).
+ * An XML IdType(@http://www.w3.org/2005/Atom).
  *
  * This is an atomic type that is a restriction of org.w3.x2005.atom.IdType.
  */

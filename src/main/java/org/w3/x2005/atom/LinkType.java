@@ -1,5 +1,5 @@
 /*
- * XML Type:  linkType
+ * XML Type:  LinkType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.LinkType
  *
@@ -9,14 +9,14 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML linkType(@http://www.w3.org/2005/Atom).
+ * An XML LinkType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
 public interface LinkType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LinkType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("linktype2086type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(LinkType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("linktype14a6type");
     
     /**
      * Gets the "href" attribute

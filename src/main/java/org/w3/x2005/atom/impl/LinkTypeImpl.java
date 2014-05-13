@@ -1,5 +1,5 @@
 /*
- * XML Type:  linkType
+ * XML Type:  LinkType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.LinkType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML linkType(@http://www.w3.org/2005/Atom).
+ * An XML LinkType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */

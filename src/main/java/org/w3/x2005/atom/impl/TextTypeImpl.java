@@ -1,5 +1,5 @@
 /*
- * XML Type:  textType
+ * XML Type:  TextType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.TextType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML textType(@http://www.w3.org/2005/Atom).
+ * An XML TextType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */

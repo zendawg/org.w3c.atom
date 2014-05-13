@@ -16,7 +16,7 @@ package org.w3.x2005.atom;
 public interface SourceType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(SourceType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("sourcetype3e67type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(SourceType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s4B6AD9617342DA882D09DAFB351EA676").resolveHandle("sourcetype3e67type");
     
     /**
      * Gets array of all "author" elements

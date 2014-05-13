@@ -1,5 +1,5 @@
 /*
- * XML Type:  uriType
+ * XML Type:  UriType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.UriType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML uriType(@http://www.w3.org/2005/Atom).
+ * An XML UriType(@http://www.w3.org/2005/Atom).
  *
  * This is an atomic type that is a restriction of org.w3.x2005.atom.UriType.
  */

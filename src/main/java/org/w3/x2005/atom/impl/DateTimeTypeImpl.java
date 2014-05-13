@@ -1,5 +1,5 @@
 /*
- * XML Type:  dateTimeType
+ * XML Type:  DateTimeType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.DateTimeType
  *
@@ -7,7 +7,7 @@
  */
 package org.w3.x2005.atom.impl;
 /**
- * An XML dateTimeType(@http://www.w3.org/2005/Atom).
+ * An XML DateTimeType(@http://www.w3.org/2005/Atom).
  *
  * This is an atomic type that is a restriction of org.w3.x2005.atom.DateTimeType.
  */

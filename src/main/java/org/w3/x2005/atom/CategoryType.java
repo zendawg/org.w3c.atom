@@ -1,5 +1,5 @@
 /*
- * XML Type:  categoryType
+ * XML Type:  CategoryType
  * Namespace: http://www.w3.org/2005/Atom
  * Java type: org.w3.x2005.atom.CategoryType
  *
@@ -9,14 +9,14 @@ package org.w3.x2005.atom;
 
 
 /**
- * An XML categoryType(@http://www.w3.org/2005/Atom).
+ * An XML CategoryType(@http://www.w3.org/2005/Atom).
  *
  * This is a complex type.
  */
 public interface CategoryType extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CategoryType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s79A9418CF5B0958528C080BB802D412D").resolveHandle("categorytype010atype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CategoryType.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s5D9F78AAB1B4B6A167F5DDBDBEC741DF").resolveHandle("categorytypee52atype");
     
     /**
      * Gets the "term" attribute
@@ -26,7 +26,7 @@ public interface CategoryType extends org.apache.xmlbeans.XmlObject
     /**
      * Gets (as xml) the "term" attribute
      */
-    org.apache.xmlbeans.XmlString xgetTerm();
+    org.apache.xmlbeans.XmlAnyURI xgetTerm();
     
     /**
      * Sets the "term" attribute
@@ -36,7 +36,7 @@ public interface CategoryType extends org.apache.xmlbeans.XmlObject
     /**
      * Sets (as xml) the "term" attribute
      */
-    void xsetTerm(org.apache.xmlbeans.XmlString term);
+    void xsetTerm(org.apache.xmlbeans.XmlAnyURI term);
     
     /**
      * Gets the "scheme" attribute
@@ -49,11 +49,6 @@ public interface CategoryType extends org.apache.xmlbeans.XmlObject
     org.apache.xmlbeans.XmlAnyURI xgetScheme();
     
     /**
-     * True if has "scheme" attribute
-     */
-    boolean isSetScheme();
-    
-    /**
      * Sets the "scheme" attribute
      */
     void setScheme(java.lang.String scheme);
@@ -62,11 +57,6 @@ public interface CategoryType extends org.apache.xmlbeans.XmlObject
      * Sets (as xml) the "scheme" attribute
      */
     void xsetScheme(org.apache.xmlbeans.XmlAnyURI scheme);
-    
-    /**
-     * Unsets the "scheme" attribute
-     */
-    void unsetScheme();
     
     /**
      * Gets the "label" attribute
